@@ -6,7 +6,7 @@ use Livewire\Component;
 
 class TabLayout extends Component
 {
-    public $selectedTab = 3;
+    public $selectedTab = 0;
     public $tabs = [
         [
             'title'=>"Purchase Ticket",

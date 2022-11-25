@@ -15,7 +15,10 @@
         <img src="{{ asset('assets/logo.png') }}" class="h-52" />
 
         <livewire:layouts.tab-layout />
+        @include('sponsors')
+
     </div>
+
     @livewireScripts
 </body>
 
